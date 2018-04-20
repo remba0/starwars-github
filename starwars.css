@@ -1,0 +1,78 @@
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.container p{
+    background: rgba(255,255,255,0.2);
+    padding: 2rem;
+}
+
+#main-section{
+    background: #222 url("img/sw_header.jpeg") center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.movie{
+    background-color: #151515;
+}
+
+.card{
+    padding: 1.25rem 1.25rem;
+}
+
+.navbar-brand img{
+    width: 3.75rem;
+    height: 1.875rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+
+
+
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
