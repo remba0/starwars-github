@@ -76,3 +76,24 @@ footer p {
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
+
+.modal-title{
+    color: white;
+}
+
+.modal-header{
+    border-bottom-color: dodgerblue;
+}
+
+.modal-footer{
+    border-top-color: dodgerblue;
+}
+
+.modal-content{
+    background-color: rgba(0,0,0,0.8);
+    border-color: dodgerblue;
+}
+
+.modal-body{
+    color: white
+}

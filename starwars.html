@@ -53,7 +53,7 @@
                     <div class="row">
                         <div class="col-12">
 
-                            <a href="#" class="btn btn-primary btn-block my-2">Maestro Jedi</a>
+                            <a href="#" class="btn btn-primary btn-block my-2" data-toggle="modal" data-target="#modalJedi">Maestro Jedi</a>
                             <a href="#" class="btn btn-danger btn-block my-2">Lord Sith</a>
                         </div>
                     </div>
@@ -112,7 +112,7 @@
                         </div>
 
                     </div> <!-- fin card-group -->
-                    
+
                     <div class="card-group">
 
                         <div class="card mb-4 text-white bg-dark box-shadow">
@@ -161,7 +161,7 @@
                         </div>
 
                     </div> <!-- fin card-group -->    
-                                
+
                     <div class="card-group">
 
                         <div class="card mb-4 text-white bg-dark box-shadow">
@@ -224,6 +224,33 @@
                 <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
             </div>
         </footer>
+
+
+        <!-- modales -->
+
+        <div class="modal fade" id="modalJedi" tabindex="-1" role="dialog" aria-labelledby="modalJediLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">El camino Jedi</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo voluptatum voluptatibus, deleniti in quaerat fugit, ducimus, optio dicta laudantium iusto consequuntur dignissimos quis accusamus error doloremque ab tenetur eligendi. Eveniet.
+                    </div>
+                    <div class="modal-video">
+                    
+                        <iframe width="400" height="200" src="https://www.youtube.com/embed/RGGyTO-VlUs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Aceptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Jquery primero despues bootstrap -->
         <script src="js/jquery-slim.min.js"></script>
