@@ -97,3 +97,30 @@ footer p {
 .modal-body{
     color: white
 }
+
+
+#modalSith .modal-title{
+    color: white;
+}
+
+#modalSith .modal-header{
+    border-bottom-color: red;
+}
+
+#modalSith .modal-footer{
+    border-top-color: red;
+}
+
+#modalSith .modal-content{
+    background-color: rgba(0,0,0,0.8);
+    border-color: red;
+}
+
+#modalSith .modal-body{
+    color: white
+}
+
+#modalSith button>span{
+    color:red;
+}
+
