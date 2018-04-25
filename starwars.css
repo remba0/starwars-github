@@ -81,6 +81,11 @@ footer p {
     color: white;
 }
 
+.modal-body{
+    color: white
+}
+
+
 .modal-header{
     border-bottom-color: dodgerblue;
 }
@@ -94,10 +99,9 @@ footer p {
     border-color: dodgerblue;
 }
 
-.modal-body{
-    color: white
+button>span{
+    color: dodgerblue;
 }
-
 
 
 #modalSith .modal-header{
@@ -117,9 +121,6 @@ footer p {
     color: red;
 }
 
-.modal-body{
-    color: white
-}
 
 .modal-video{
     text-align: center;
